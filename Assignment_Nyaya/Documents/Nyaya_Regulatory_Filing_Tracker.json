@@ -1,0 +1,52 @@
+{
+  "document_id": "NYA-CMP-FIL-005",
+  "version": "1.0",
+  "effective_date": "2026-10-15",
+  "classification": "Fictional sample for RAG testing",
+  "reference_date": "2026-10-15",
+  "reference_date_note": "Statuses are evaluated against the fixed reference date 2026-10-15.",
+  "filings": [
+    {
+      "filing_id": "FIL-SG-2026-Q3",
+      "jurisdiction": "Singapore",
+      "description": "Quarterly Operational Resilience Return for Q3 2026",
+      "due_date": "2026-10-15",
+      "status": "Due Today"
+    },
+    {
+      "filing_id": "FIL-UK-2026-07",
+      "jurisdiction": "United Kingdom",
+      "description": "Annual Communications Security Controls Attestation",
+      "due_date": "2026-09-30",
+      "status": "Overdue"
+    },
+    {
+      "filing_id": "FIL-AU-2026-11",
+      "jurisdiction": "Australia",
+      "description": "Critical Infrastructure Service Dependency Update",
+      "due_date": "2026-11-05",
+      "status": "Due Within 30 Days"
+    },
+    {
+      "filing_id": "FIL-IN-2026-H2",
+      "jurisdiction": "India",
+      "description": "Half-Yearly Customer Data Governance Certification",
+      "due_date": "2026-12-31",
+      "status": "Planned"
+    },
+    {
+      "filing_id": "FIL-MY-2026-Q2",
+      "jurisdiction": "Malaysia",
+      "description": "Quarterly Network Incident Summary for Q2 2026",
+      "due_date": "2026-07-20",
+      "status": "Filed"
+    },
+    {
+      "filing_id": "FIL-JP-2027-01",
+      "jurisdiction": "Japan",
+      "description": "Annual Outsourced Services Register",
+      "due_date": "2027-01-31",
+      "status": "Planned"
+    }
+  ]
+}

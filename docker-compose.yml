@@ -1,0 +1,24 @@
+services:
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.115.1
+    container_name: treasury-otel-collector
+    command: ["--config=/etc/otelcol-contrib/config.yaml"]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otelcol-contrib/config.yaml:ro
+    ports:
+      - "4320:4318"   # OTLP HTTP receiver
+      - "4321:4317"   # OTLP gRPC receiver
+    depends_on:
+      - jaeger
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: treasury-jaeger
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - "16687:16686" # Jaeger UI
+      - "4317:4317"   # OTLP gRPC (ingest) exposed by jaeger all-in-one
+      - "4318:4318"   # OTLP HTTP (ingest) exposed by jaeger all-in-one
+      - "14268:14268"
+      - "14250:14250"

@@ -1,0 +1,12 @@
+openai>=1.40.0
+python-dotenv>=1.0.1
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pytest>=8.0.0
+opentelemetry-sdk>=1.28.0
+opentelemetry-exporter-otlp-proto-http>=1.28.0
+
+# Deliberately NOT included yet: opentelemetry-sdk, opentelemetry-exporter-otlp,
+# prometheus-client, etc. Adding tracing, metrics export, and the
+# Prometheus/Grafana stack is Steps 1-4 of the companion challenge outline —
+# add these packages yourself as you get there.

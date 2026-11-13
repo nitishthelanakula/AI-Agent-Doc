@@ -1,0 +1,5 @@
+metric,limit,unit,notes
+liquidity_coverage_minimum,1.10,x,Minimum ratio before escalation
+single_counterparty_limit,10,percent,Max non-bank counterparty exposure
+daily_forecast_variance,5,percent,Material variance threshold
+minimum_cash_buffer,5_000_000,USD,Required minimum operational cash buffer

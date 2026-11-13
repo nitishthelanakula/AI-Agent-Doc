@@ -1,0 +1,13 @@
+# Document ID: NYA-CMP-AUD-004
+# Version: 1.0
+# Effective Date: 2026-10-15
+# Classification: Fictional sample for RAG testing
+audit_id,date,area_audited,finding,severity,status
+AUD-2026-001,2026-01-18,Access Governance,Quarterly privileged-access recertification evidence was incomplete for two application groups.,High,Closed
+AUD-2026-002,2026-02-09,Records Retention,Automatic deletion rule did not apply to archived compliance mailbox exports.,Medium,Open
+AUD-2026-003,2026-03-22,Third-Party Risk,Supplier resilience assessment lacked evidence of annual recovery testing.,High,Open
+AUD-2026-004,2026-04-14,Regulatory Reporting,Submission approval checklist omitted second-line review sign-off.,Medium,Closed
+AUD-2026-005,2026-05-30,Data Protection,One legacy support workflow retained customer identifiers beyond the approved period.,High,Open
+AUD-2026-006,2026-06-11,Contract Controls,Executed contract sample was missing a documented deviation approval.,Low,Closed
+AUD-2026-007,2026-07-19,Incident Management,Compliance notification decision log was not linked to the incident record.,Medium,Open
+AUD-2026-008,2026-08-27,Training Compliance,Annual legal-awareness completion evidence was reconciled and exceptions were resolved.,Low,Closed
